@@ -1,0 +1,8 @@
+platform:ios,'11.0'
+use_frameworks!
+# ignore all warnings from all pods
+inhibit_all_warnings!
+abstract_target 'defaults' do
+ pod "DKNightVersion"
+target 'XICTestiOS'
+end

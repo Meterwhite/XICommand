@@ -1,0 +1,6 @@
+framework module Pods_defaults_XICTestiOS {
+  umbrella header "Pods-defaults-XICTestiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
