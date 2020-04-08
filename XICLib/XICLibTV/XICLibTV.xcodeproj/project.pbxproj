@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B35339243E24140038DCEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35338243E24140038DCEC /* AppDelegate.m */; };
+		18B3533C243E24140038DCEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3533B243E24140038DCEC /* ViewController.m */; };
+		18B3533F243E24140038DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B3533D243E24140038DCEC /* Main.storyboard */; };
+		18B35341243E24180038DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B35340243E24180038DCEC /* Assets.xcassets */; };
+		18B35344243E24180038DCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B35342243E24180038DCEC /* LaunchScreen.storyboard */; };
+		18B35347243E24180038DCEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35346243E24180038DCEC /* main.m */; };
+		18B35389243E24230038DCEC /* XICDKNightVersionTextColorKeyOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35354243E24230038DCEC /* XICDKNightVersionTextColorKeyOpt.m */; };
+		18B3538A243E24230038DCEC /* XICDKNightVersionBackgroundColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35355243E24230038DCEC /* XICDKNightVersionBackgroundColorOpt.m */; };
+		18B3538B243E24230038DCEC /* XICDKNightVersionBackgroundColorKeyOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35357243E24230038DCEC /* XICDKNightVersionBackgroundColorKeyOpt.m */; };
+		18B3538C243E24230038DCEC /* XICDKNightVersionTextColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3535A243E24230038DCEC /* XICDKNightVersionTextColorOpt.m */; };
+		18B3538D243E24230038DCEC /* XICDKColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3535C243E24230038DCEC /* XICDKColorPicker.m */; };
+		18B3538E243E24230038DCEC /* XDDKNightVersionColorKeyArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3535F243E24230038DCEC /* XDDKNightVersionColorKeyArgs.m */; };
+		18B3538F243E24230038DCEC /* XICDKNightVersionColorArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35360243E24230038DCEC /* XICDKNightVersionColorArgs.m */; };
+		18B35390243E24230038DCEC /* XICDKNightVersionSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35362243E24230038DCEC /* XICDKNightVersionSDK.m */; };
+		18B35391243E24230038DCEC /* XICCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35365243E24230038DCEC /* XICCommand.m */; };
+		18B35392243E24230038DCEC /* XICDefaultSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35369243E24230038DCEC /* XICDefaultSDK.m */; };
+		18B35393243E24230038DCEC /* XICDefaultTxtColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3536C243E24230038DCEC /* XICDefaultTxtColorOpt.m */; };
+		18B35394243E24230038DCEC /* XICDefaultBGColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3536E243E24230038DCEC /* XICDefaultBGColorOpt.m */; };
+		18B35395243E24230038DCEC /* XICDefaultHiddenOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3536F243E24230038DCEC /* XICDefaultHiddenOpt.m */; };
+		18B35396243E24230038DCEC /* XICDefaultCornerOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35371243E24230038DCEC /* XICDefaultCornerOpt.m */; };
+		18B35397243E24230038DCEC /* XICDefaultBorderOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35374243E24230038DCEC /* XICDefaultBorderOpt.m */; };
+		18B35398243E24230038DCEC /* XICDefaultFontOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35375243E24230038DCEC /* XICDefaultFontOpt.m */; };
+		18B35399243E24230038DCEC /* XICDefaultBorderArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3537A243E24230038DCEC /* XICDefaultBorderArgs.m */; };
+		18B3539A243E24230038DCEC /* XICDefaultColorArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3537C243E24230038DCEC /* XICDefaultColorArgs.m */; };
+		18B3539B243E24230038DCEC /* XICDefaultFontArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3537E243E24230038DCEC /* XICDefaultFontArgs.m */; };
+		18B3539C243E24230038DCEC /* XICDefaultCornerArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35381243E24230038DCEC /* XICDefaultCornerArgs.m */; };
+		18B3539D243E24230038DCEC /* XICRuntimeWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35384243E24230038DCEC /* XICRuntimeWork.m */; };
+		18B3539E243E24230038DCEC /* XICMethodsBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B35387243E24230038DCEC /* XICMethodsBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B35334243E24140038DCEC /* XICLibTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XICLibTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B35337243E24140038DCEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B35338243E24140038DCEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B3533A243E24140038DCEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18B3533B243E24140038DCEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18B3533E243E24140038DCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B35340243E24180038DCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B35343243E24180038DCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B35345243E24180038DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B35346243E24180038DCEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B35350243E24230038DCEC /* XICDKNightVersionDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionDocument.h; sourceTree = "<group>"; };
+		18B35351243E24230038DCEC /* XICDKColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKColorPicker.h; sourceTree = "<group>"; };
+		18B35352243E24230038DCEC /* XICDKNightVersionSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionSDK.h; sourceTree = "<group>"; };
+		18B35354243E24230038DCEC /* XICDKNightVersionTextColorKeyOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionTextColorKeyOpt.m; sourceTree = "<group>"; };
+		18B35355243E24230038DCEC /* XICDKNightVersionBackgroundColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionBackgroundColorOpt.m; sourceTree = "<group>"; };
+		18B35356243E24230038DCEC /* XICDKNightVersionTextColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionTextColorOpt.h; sourceTree = "<group>"; };
+		18B35357243E24230038DCEC /* XICDKNightVersionBackgroundColorKeyOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionBackgroundColorKeyOpt.m; sourceTree = "<group>"; };
+		18B35358243E24230038DCEC /* XICDKNightVersionTextColorKeyOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionTextColorKeyOpt.h; sourceTree = "<group>"; };
+		18B35359243E24230038DCEC /* XICDKNightVersionBackgroundColorKeyOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionBackgroundColorKeyOpt.h; sourceTree = "<group>"; };
+		18B3535A243E24230038DCEC /* XICDKNightVersionTextColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionTextColorOpt.m; sourceTree = "<group>"; };
+		18B3535B243E24230038DCEC /* XICDKNightVersionBackgroundColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionBackgroundColorOpt.h; sourceTree = "<group>"; };
+		18B3535C243E24230038DCEC /* XICDKColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKColorPicker.m; sourceTree = "<group>"; };
+		18B3535E243E24230038DCEC /* XICDKNightVersionColorArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionColorArgs.h; sourceTree = "<group>"; };
+		18B3535F243E24230038DCEC /* XDDKNightVersionColorKeyArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDKNightVersionColorKeyArgs.m; sourceTree = "<group>"; };
+		18B35360243E24230038DCEC /* XICDKNightVersionColorArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionColorArgs.m; sourceTree = "<group>"; };
+		18B35361243E24230038DCEC /* XDDKNightVersionColorKeyArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDKNightVersionColorKeyArgs.h; sourceTree = "<group>"; };
+		18B35362243E24230038DCEC /* XICDKNightVersionSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionSDK.m; sourceTree = "<group>"; };
+		18B35364243E24230038DCEC /* XICProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICProtocols.h; sourceTree = "<group>"; };
+		18B35365243E24230038DCEC /* XICCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICCommand.m; sourceTree = "<group>"; };
+		18B35366243E24230038DCEC /* XICDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefined.h; sourceTree = "<group>"; };
+		18B35367243E24230038DCEC /* XICCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICCommand.h; sourceTree = "<group>"; };
+		18B35369243E24230038DCEC /* XICDefaultSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultSDK.m; sourceTree = "<group>"; };
+		18B3536B243E24230038DCEC /* XICDefaultBorderOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBorderOpt.h; sourceTree = "<group>"; };
+		18B3536C243E24230038DCEC /* XICDefaultTxtColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultTxtColorOpt.m; sourceTree = "<group>"; };
+		18B3536D243E24230038DCEC /* XICDefaultCornerOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultCornerOpt.h; sourceTree = "<group>"; };
+		18B3536E243E24230038DCEC /* XICDefaultBGColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBGColorOpt.m; sourceTree = "<group>"; };
+		18B3536F243E24230038DCEC /* XICDefaultHiddenOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultHiddenOpt.m; sourceTree = "<group>"; };
+		18B35370243E24230038DCEC /* XICDefaultFontOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultFontOpt.h; sourceTree = "<group>"; };
+		18B35371243E24230038DCEC /* XICDefaultCornerOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultCornerOpt.m; sourceTree = "<group>"; };
+		18B35372243E24230038DCEC /* XICDefaultBGColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBGColorOpt.h; sourceTree = "<group>"; };
+		18B35373243E24230038DCEC /* XICDefaultTxtColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultTxtColorOpt.h; sourceTree = "<group>"; };
+		18B35374243E24230038DCEC /* XICDefaultBorderOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBorderOpt.m; sourceTree = "<group>"; };
+		18B35375243E24230038DCEC /* XICDefaultFontOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultFontOpt.m; sourceTree = "<group>"; };
+		18B35376243E24230038DCEC /* XICDefaultHiddenOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultHiddenOpt.h; sourceTree = "<group>"; };
+		18B35377243E24230038DCEC /* XICDefaultDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultDocument.h; sourceTree = "<group>"; };
+		18B35378243E24230038DCEC /* XICDefaultSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultSDK.h; sourceTree = "<group>"; };
+		18B3537A243E24230038DCEC /* XICDefaultBorderArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBorderArgs.m; sourceTree = "<group>"; };
+		18B3537B243E24230038DCEC /* XICDefaultFontArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultFontArgs.h; sourceTree = "<group>"; };
+		18B3537C243E24230038DCEC /* XICDefaultColorArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultColorArgs.m; sourceTree = "<group>"; };
+		18B3537D243E24230038DCEC /* XICDefaultCornerArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultCornerArgs.h; sourceTree = "<group>"; };
+		18B3537E243E24230038DCEC /* XICDefaultFontArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultFontArgs.m; sourceTree = "<group>"; };
+		18B3537F243E24230038DCEC /* XICDefaultBorderArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBorderArgs.h; sourceTree = "<group>"; };
+		18B35380243E24230038DCEC /* XICDefaultColorArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultColorArgs.h; sourceTree = "<group>"; };
+		18B35381243E24230038DCEC /* XICDefaultCornerArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultCornerArgs.m; sourceTree = "<group>"; };
+		18B35383243E24230038DCEC /* XICRuntimeWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICRuntimeWork.h; sourceTree = "<group>"; };
+		18B35384243E24230038DCEC /* XICRuntimeWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICRuntimeWork.m; sourceTree = "<group>"; };
+		18B35386243E24230038DCEC /* XICMethodsBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICMethodsBox.h; sourceTree = "<group>"; };
+		18B35387243E24230038DCEC /* XICMethodsBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICMethodsBox.m; sourceTree = "<group>"; };
+		18B35388243E24230038DCEC /* XICDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDocument.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B35331243E24140038DCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B3532B243E24140038DCEC = {
+			isa = PBXGroup;
+			children = (
+				18B35336243E24140038DCEC /* XICLibTV */,
+				18B35335243E24140038DCEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B35335243E24140038DCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B35334243E24140038DCEC /* XICLibTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B35336243E24140038DCEC /* XICLibTV */ = {
+			isa = PBXGroup;
+			children = (
+				18B3534D243E24220038DCEC /* XICommand */,
+				18B35337243E24140038DCEC /* AppDelegate.h */,
+				18B35338243E24140038DCEC /* AppDelegate.m */,
+				18B3533A243E24140038DCEC /* ViewController.h */,
+				18B3533B243E24140038DCEC /* ViewController.m */,
+				18B3533D243E24140038DCEC /* Main.storyboard */,
+				18B35340243E24180038DCEC /* Assets.xcassets */,
+				18B35342243E24180038DCEC /* LaunchScreen.storyboard */,
+				18B35345243E24180038DCEC /* Info.plist */,
+				18B35346243E24180038DCEC /* main.m */,
+			);
+			path = XICLibTV;
+			sourceTree = "<group>";
+		};
+		18B3534D243E24220038DCEC /* XICommand */ = {
+			isa = PBXGroup;
+			children = (
+				18B3534E243E24220038DCEC /* SDKs */,
+				18B35363243E24230038DCEC /* Commons */,
+				18B35368243E24230038DCEC /* DefaultSDK */,
+				18B35382243E24230038DCEC /* Runtime */,
+				18B35385243E24230038DCEC /* MethodsBox */,
+				18B35388243E24230038DCEC /* XICDocument.h */,
+			);
+			name = XICommand;
+			path = ../../../XICommand;
+			sourceTree = "<group>";
+		};
+		18B3534E243E24220038DCEC /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+				18B3534F243E24230038DCEC /* DKNightVersion */,
+			);
+			path = SDKs;
+			sourceTree = "<group>";
+		};
+		18B3534F243E24230038DCEC /* DKNightVersion */ = {
+			isa = PBXGroup;
+			children = (
+				18B35350243E24230038DCEC /* XICDKNightVersionDocument.h */,
+				18B35351243E24230038DCEC /* XICDKColorPicker.h */,
+				18B35352243E24230038DCEC /* XICDKNightVersionSDK.h */,
+				18B35353243E24230038DCEC /* Option */,
+				18B3535C243E24230038DCEC /* XICDKColorPicker.m */,
+				18B3535D243E24230038DCEC /* Args */,
+				18B35362243E24230038DCEC /* XICDKNightVersionSDK.m */,
+			);
+			path = DKNightVersion;
+			sourceTree = "<group>";
+		};
+		18B35353243E24230038DCEC /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				18B35354243E24230038DCEC /* XICDKNightVersionTextColorKeyOpt.m */,
+				18B35355243E24230038DCEC /* XICDKNightVersionBackgroundColorOpt.m */,
+				18B35356243E24230038DCEC /* XICDKNightVersionTextColorOpt.h */,
+				18B35357243E24230038DCEC /* XICDKNightVersionBackgroundColorKeyOpt.m */,
+				18B35358243E24230038DCEC /* XICDKNightVersionTextColorKeyOpt.h */,
+				18B35359243E24230038DCEC /* XICDKNightVersionBackgroundColorKeyOpt.h */,
+				18B3535A243E24230038DCEC /* XICDKNightVersionTextColorOpt.m */,
+				18B3535B243E24230038DCEC /* XICDKNightVersionBackgroundColorOpt.h */,
+			);
+			path = Option;
+			sourceTree = "<group>";
+		};
+		18B3535D243E24230038DCEC /* Args */ = {
+			isa = PBXGroup;
+			children = (
+				18B3535E243E24230038DCEC /* XICDKNightVersionColorArgs.h */,
+				18B3535F243E24230038DCEC /* XDDKNightVersionColorKeyArgs.m */,
+				18B35360243E24230038DCEC /* XICDKNightVersionColorArgs.m */,
+				18B35361243E24230038DCEC /* XDDKNightVersionColorKeyArgs.h */,
+			);
+			path = Args;
+			sourceTree = "<group>";
+		};
+		18B35363243E24230038DCEC /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				18B35364243E24230038DCEC /* XICProtocols.h */,
+				18B35365243E24230038DCEC /* XICCommand.m */,
+				18B35366243E24230038DCEC /* XICDefined.h */,
+				18B35367243E24230038DCEC /* XICCommand.h */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		18B35368243E24230038DCEC /* DefaultSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18B35369243E24230038DCEC /* XICDefaultSDK.m */,
+				18B3536A243E24230038DCEC /* Option */,
+				18B35377243E24230038DCEC /* XICDefaultDocument.h */,
+				18B35378243E24230038DCEC /* XICDefaultSDK.h */,
+				18B35379243E24230038DCEC /* Args */,
+			);
+			path = DefaultSDK;
+			sourceTree = "<group>";
+		};
+		18B3536A243E24230038DCEC /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				18B3536B243E24230038DCEC /* XICDefaultBorderOpt.h */,
+				18B3536C243E24230038DCEC /* XICDefaultTxtColorOpt.m */,
+				18B3536D243E24230038DCEC /* XICDefaultCornerOpt.h */,
+				18B3536E243E24230038DCEC /* XICDefaultBGColorOpt.m */,
+				18B3536F243E24230038DCEC /* XICDefaultHiddenOpt.m */,
+				18B35370243E24230038DCEC /* XICDefaultFontOpt.h */,
+				18B35371243E24230038DCEC /* XICDefaultCornerOpt.m */,
+				18B35372243E24230038DCEC /* XICDefaultBGColorOpt.h */,
+				18B35373243E24230038DCEC /* XICDefaultTxtColorOpt.h */,
+				18B35374243E24230038DCEC /* XICDefaultBorderOpt.m */,
+				18B35375243E24230038DCEC /* XICDefaultFontOpt.m */,
+				18B35376243E24230038DCEC /* XICDefaultHiddenOpt.h */,
+			);
+			path = Option;
+			sourceTree = "<group>";
+		};
+		18B35379243E24230038DCEC /* Args */ = {
+			isa = PBXGroup;
+			children = (
+				18B3537A243E24230038DCEC /* XICDefaultBorderArgs.m */,
+				18B3537B243E24230038DCEC /* XICDefaultFontArgs.h */,
+				18B3537C243E24230038DCEC /* XICDefaultColorArgs.m */,
+				18B3537D243E24230038DCEC /* XICDefaultCornerArgs.h */,
+				18B3537E243E24230038DCEC /* XICDefaultFontArgs.m */,
+				18B3537F243E24230038DCEC /* XICDefaultBorderArgs.h */,
+				18B35380243E24230038DCEC /* XICDefaultColorArgs.h */,
+				18B35381243E24230038DCEC /* XICDefaultCornerArgs.m */,
+			);
+			path = Args;
+			sourceTree = "<group>";
+		};
+		18B35382243E24230038DCEC /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				18B35383243E24230038DCEC /* XICRuntimeWork.h */,
+				18B35384243E24230038DCEC /* XICRuntimeWork.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		18B35385243E24230038DCEC /* MethodsBox */ = {
+			isa = PBXGroup;
+			children = (
+				18B35386243E24230038DCEC /* XICMethodsBox.h */,
+				18B35387243E24230038DCEC /* XICMethodsBox.m */,
+			);
+			path = MethodsBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B35333243E24140038DCEC /* XICLibTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B3534A243E24180038DCEC /* Build configuration list for PBXNativeTarget "XICLibTV" */;
+			buildPhases = (
+				18B35330243E24140038DCEC /* Sources */,
+				18B35331243E24140038DCEC /* Frameworks */,
+				18B35332243E24140038DCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XICLibTV;
+			productName = XICLibTV;
+			productReference = 18B35334243E24140038DCEC /* XICLibTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B3532C243E24140038DCEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Meterwhite;
+				TargetAttributes = {
+					18B35333243E24140038DCEC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 18B3532F243E24140038DCEC /* Build configuration list for PBXProject "XICLibTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B3532B243E24140038DCEC;
+			productRefGroup = 18B35335243E24140038DCEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B35333243E24140038DCEC /* XICLibTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B35332243E24140038DCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B35344243E24180038DCEC /* LaunchScreen.storyboard in Resources */,
+				18B35341243E24180038DCEC /* Assets.xcassets in Resources */,
+				18B3533F243E24140038DCEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B35330243E24140038DCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B35394243E24230038DCEC /* XICDefaultBGColorOpt.m in Sources */,
+				18B35389243E24230038DCEC /* XICDKNightVersionTextColorKeyOpt.m in Sources */,
+				18B35397243E24230038DCEC /* XICDefaultBorderOpt.m in Sources */,
+				18B35396243E24230038DCEC /* XICDefaultCornerOpt.m in Sources */,
+				18B3539A243E24230038DCEC /* XICDefaultColorArgs.m in Sources */,
+				18B3538C243E24230038DCEC /* XICDKNightVersionTextColorOpt.m in Sources */,
+				18B35398243E24230038DCEC /* XICDefaultFontOpt.m in Sources */,
+				18B3538E243E24230038DCEC /* XDDKNightVersionColorKeyArgs.m in Sources */,
+				18B35393243E24230038DCEC /* XICDefaultTxtColorOpt.m in Sources */,
+				18B35392243E24230038DCEC /* XICDefaultSDK.m in Sources */,
+				18B3533C243E24140038DCEC /* ViewController.m in Sources */,
+				18B35347243E24180038DCEC /* main.m in Sources */,
+				18B35395243E24230038DCEC /* XICDefaultHiddenOpt.m in Sources */,
+				18B3538B243E24230038DCEC /* XICDKNightVersionBackgroundColorKeyOpt.m in Sources */,
+				18B35399243E24230038DCEC /* XICDefaultBorderArgs.m in Sources */,
+				18B3538F243E24230038DCEC /* XICDKNightVersionColorArgs.m in Sources */,
+				18B3538D243E24230038DCEC /* XICDKColorPicker.m in Sources */,
+				18B35339243E24140038DCEC /* AppDelegate.m in Sources */,
+				18B3539B243E24230038DCEC /* XICDefaultFontArgs.m in Sources */,
+				18B3538A243E24230038DCEC /* XICDKNightVersionBackgroundColorOpt.m in Sources */,
+				18B35391243E24230038DCEC /* XICCommand.m in Sources */,
+				18B3539C243E24230038DCEC /* XICDefaultCornerArgs.m in Sources */,
+				18B3539D243E24230038DCEC /* XICRuntimeWork.m in Sources */,
+				18B3539E243E24230038DCEC /* XICMethodsBox.m in Sources */,
+				18B35390243E24230038DCEC /* XICDKNightVersionSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18B3533D243E24140038DCEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B3533E243E24140038DCEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B35342243E24180038DCEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B35343243E24180038DCEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B35348243E24180038DCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		18B35349243E24180038DCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B3534B243E24180038DCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XICLibTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.meterwhite.XICLibTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		18B3534C243E24180038DCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XICLibTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.meterwhite.XICLibTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B3532F243E24140038DCEC /* Build configuration list for PBXProject "XICLibTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B35348243E24180038DCEC /* Debug */,
+				18B35349243E24180038DCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B3534A243E24180038DCEC /* Build configuration list for PBXNativeTarget "XICLibTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B3534B243E24180038DCEC /* Debug */,
+				18B3534C243E24180038DCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B3532C243E24140038DCEC /* Project object */;
+}

@@ -1,8 +1,8 @@
 # Xcode interface command
 ## Introduction
-- Xcode interface command .The core function is to support the dark mode through the XIB file.The user will call the specified function when naming the IBOutlet property in the specified format.This format is like the command line.Because of the interface-oriented programming, all developers can easily add plug-ins to support more functions.Not only supports iOS, most functions support macOS.Because it is based on runtime coding, this project uses objective-c.But the Swift project is no problem to use.This project uses the method of dynamically loading plugins, so it does not depend on any third-party libraries. Please use cocoapods or other methods to import third-party libraries to support the specified plug-in function.
+- Xcode interface command .The core function is to support the `dark mode` through the XIB file.The user will call the specified function when naming the IBOutlet property in the specified format.This format is like the command line.Because of the interface-oriented programming, all developers can easily add `plug-ins` to support more functions.Not only supports `iOS`, most functions support `macOS`.Because it is based on runtime coding, this project uses objective-c.But the Swift project is no problem to use.This project uses the method of dynamically loading plugins, so it does not depend on any third-party libraries. Please use cocoapods or other methods to import third-party libraries to support the specified plug-in function.
 
-- Xcode interface command d的核心功能是通过XIB文件适配夜间模式，用户在以指定格式命名IBOutlet属性时将触发特殊功能，这种格式类似于命令行。因为是面向接口的编程 ，所有开发人员都可以轻松添加插件以支持更多功能。支持iOS为主，支持macOS为辅。因为基于runtime编码所以本项目采用objective-c,但Swift项目使用起来也没问题。本项目采用动态加载插件的方法，所以不依赖任何三方。请使用cocoapods或其他方法导入三方以支持指定插件的功能。
+- Xcode interface command d的核心功能是通过`XIB`文件适配`夜间模式`，用户在以指定格式命名IBOutlet属性时将触发特殊功能，这种格式类似于命令行。因为是面向接口的编程 ，所有开发人员都可以轻松添加插件以支持更多功能。支持iOS为主，支持macOS为辅。因为基于runtime编码所以本项目采用objective-c,但Swift项目使用起来也没问题。本项目采用动态加载插件的方法，所以不依赖任何三方。请使用cocoapods或其他方法导入三方以支持指定插件的功能。
 ---
 ## CocoaPods
 ```
@@ -20,7 +20,7 @@ pod 'XICommand'
 
 ### Command rule
 - Basic rule : Command + option + args;(基础规则)
-   - Use '_' to connect each item;(用下划线'_'来连接每一项)
+   - Use `_` to connect each item;(用下划线`_`来连接每一项)
    - args is optional;(args是可选的)
    
 ### Document
@@ -41,7 +41,7 @@ pod 'XICommand'
    - 3.14 -> 3p14 
 - Color format(颜色格式) : Hexadecimal color value,Hexadecimal color value, ‘0X’ prefix is optional, and both upper and lower case are supported.(十六进制颜色值，‘0X’前缀是可选，大小写都支持)
 - How to solve duplicate outlet names?(连线命名重复?)
-   - The extra '_' can avoid duplicate naming : sudo_...option;(添加多余的下划线)
+   - The extra `_` can avoid duplicate naming : sudo_...option;(添加多余的下划线)
    - Use `IBOutletCollection` to connect controls.(用`IBOutletCollection`连线)
 - How to rename IBOutlet or IBOutletCollection?(怎么重命名连线?)
    1. Navigate to outlet in the header file. @property (weak, nonatomic) IBOutlet UIButton *btnRequestCode;
