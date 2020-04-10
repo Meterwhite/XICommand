@@ -2,7 +2,14 @@
 ## Introduction
 - Xcode interface command .The core function is to support the `dark mode` through the XIB file.The user will call the specified function when naming the IBOutlet property in the specified format.This format is like the command line.Because of the interface-oriented programming, all developers can easily add `plug-ins` to support more functions.Not only supports `iOS`, most functions support `macOS`.The project uses `objective-c` or `swift` is no problem.This project uses the method of dynamically loading plugins, so it does not depend on any third-party libraries. Please use cocoapods or other methods to import third-party libraries to support the specified plug-in function.
 
-- Xcode interface command d的核心功能是通过`XIB`文件适配`夜间模式`，用户在以指定格式命名IBOutlet属性时将触发特殊功能，这种格式类似于命令行。因为是面向接口的编程 ，所有开发人员都可以轻松添加插件以支持更多功能。支持iOS为主，macOS为辅。项目使用objective-c或者swift都是无恙的。本项目采用动态加载插件的方法，故不依赖任何三方。请使用cocoapods或其他方法导入三方以支持指定插件的功能。
+> Xcode interface command d的核心功能是通过`XIB`文件适配`夜间模式`，用户在以指定格式命名IBOutlet属性时将触发特殊功能，这种格式类似于命令行。因为是面向接口的编程 ，所有开发人员都可以轻松添加插件以支持更多功能。支持iOS为主，macOS为辅。项目使用objective-c或者swift都是无恙的。本项目采用动态加载插件的方法，故不依赖任何三方。请使用cocoapods或其他方法导入三方以支持指定插件的功能。
+
+## How to solve the pain points that Xcode's built-in visual programming means are not enough?
+- XIC uses IBOutlet as a command line to expand XIC's edit items. Just as the command line is a program corresponding to a command, the command subordinate has multiple options. XIC is a plug-in corresponding to a command, and the command subordinate has multiple options. Therefore, the functional scalability of XIC is unlimited.
+
+> 如何解决Xcode内置可视化编程手段不够多的痛点？
+>> XIC天马行空的将IBOutlet作为命令行来扩展XIC的编辑项。正如命令行是一种程序对应一种命令，命令下级有多个option。XIC是一种插件对应一种命令，命令下级有多种option。因此XIC的功能扩展性是无限制的。
+
 ---
 ## CocoaPods
 ```
@@ -33,13 +40,13 @@ pod 'XICommand'
    
 ### Document
 - `XICDocument.h` file provides all API queries, and developers can even get API tips by xcode.
-- XICDocument.h 文件提供所有API查询，开发者也可以通过编码提示查询API。 
+> `XICDocument.h` 文件提供所有API查询，开发者也可以通过编码提示查询API。 
    
 ---
 
 ### DKNightVersion plug-ins usage(使用插件)
 - Supporting Dark Mode. Currently this feature is provided by [DKNightVersion](https://github.com/draveness/DKNightVersion).So import first.
-   - (当前适配夜间模式功能由[DKNightVersion](https://github.com/draveness/DKNightVersion)提供，使用先导入。)
+> (当前适配夜间模式功能由[DKNightVersion](https://github.com/draveness/DKNightVersion)提供，使用先导入。)
 
 ### Default plug-ins usage(默认插件)
 - The project's default plugin provides less functionality.(提供较少功能)
