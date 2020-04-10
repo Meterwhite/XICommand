@@ -71,6 +71,7 @@ pod 'XICommand'
 ## Development of new plugins(开发新插件)
 1. Implement all protocols in the 'XICProtocols.h' file.(实现XICProtocols.h文件中的协议)
 2. Edit the 'XICDocument.h' file to supplement the interface document.(在XICDocument.h补充接口文档)
+![](https://github.com/Meterwhite/XICommand/blob/master/XICStructure.png)
 
 ## Help this open source project XIC.(请助力开源项目XIC.)
 1.   Please `fork` and `star` this project. (请fork和star)
