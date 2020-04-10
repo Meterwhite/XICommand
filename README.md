@@ -73,7 +73,7 @@ pod 'XICommand'
 2. Edit the 'XICDocument.h' file to supplement the interface document.(在XICDocument.h补充接口文档)
 
 ## Help this open source project XIC.(请助力开源项目XIC.)
-1.   Please `fork` and `start` this project. (请fork和start)
-2.   Output code to this project and provide magical functions to `XIB`.(请向这个项目输出开源代码) 
-3.   Push your code.(推送代码)
+1.   Please `fork` and `star` this project. (请fork和star)
+2.   Output code to this project and provide magical functions to `XIB`.(向这个项目输出开源代码) 
+3.   Push your code.(推送你的开源代码)
 4.   Any questions and feedback please push an issue in github.(任何问题和反馈请在github推送issue.)
