@@ -2,7 +2,7 @@
 ## Introduction
 - Xcode interface command .The core function is to support the `dark mode` through the XIB file.The user will call the specified function when naming the IBOutlet property in the specified format.This format is like the command line.Because of the interface-oriented programming, all developers can easily add `plug-ins` to support more functions.Not only supports `iOS`, most functions support `macOS`.The project uses `objective-c` or `swift` is no problem.This project uses the method of dynamically loading plugins, so it does not depend on any third-party libraries. Please use cocoapods or other methods to import third-party libraries to support the specified plug-in function.
 
-> Xcode interface command d的核心功能是通过`XIB`文件适配`夜间模式`，用户在以指定格式命名IBOutlet属性时将触发特殊功能，这种格式类似于命令行。因为是面向接口的编程 ，所有开发人员都可以轻松添加插件以支持更多功能。支持iOS为主，macOS为辅。项目使用objective-c或者swift都是无恙的。本项目采用动态加载插件的方法，故不依赖任何三方。请使用cocoapods或其他方法导入三方以支持指定插件的功能。
+> Xcode interface command 的核心功能是通过`XIB`文件适配`夜间模式`，用户在以指定格式命名IBOutlet属性时将触发特殊功能，这种格式类似于命令行。因为是面向接口的编程 ，所有开发人员都可以轻松添加插件以支持更多功能。支持iOS为主，macOS为辅。项目使用objective-c或者swift都是无恙的。本项目采用动态加载插件的方法，故不依赖任何三方。请使用cocoapods或其他方法导入三方以支持指定插件的功能。
 
 ## How to solve the pain points that Xcode's built-in visual programming means are not enough?
 - XIC uses IBOutlet as a command line to expand XIC's edit items. Just as the command line is a program corresponding to a command, the command subordinate has multiple options. XIC is a plug-in corresponding to a command, and the command subordinate has multiple options. Therefore, the functional scalability of XIC is unlimited.
@@ -68,7 +68,7 @@ pod 'XICommand'
    - High performance cache determines the time complexity is O (1).(高性能的缓存决定时间复杂度为O(1))
    - The function call stack is optimized.(函数调用栈被优化了)
 ---
-## Plug-in development
+## Development of new plugins(开发新插件)
 1. Implement all protocols in the 'XICProtocols.h' file.(实现XICProtocols.h文件中的协议)
 2. Edit the 'XICDocument.h' file to supplement the interface document.(在XICDocument.h补充接口文档)
 
