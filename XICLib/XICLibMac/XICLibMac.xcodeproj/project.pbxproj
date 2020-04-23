@@ -8,110 +8,117 @@
 
 /* Begin PBXBuildFile section */
 		181DBC69243C380800571CF3 /* XICLibMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 181DBC67243C380800571CF3 /* XICLibMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		186F43F0243CC17500B4F820 /* XICDKNightVersionDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43B7243CC17500B4F820 /* XICDKNightVersionDocument.h */; };
-		186F43F1243CC17500B4F820 /* XICDKColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43B8243CC17500B4F820 /* XICDKColorPicker.h */; };
-		186F43F2243CC17500B4F820 /* XICDKNightVersionSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43B9243CC17500B4F820 /* XICDKNightVersionSDK.h */; };
-		186F43F3243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43BB243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.m */; };
-		186F43F4243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43BC243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.m */; };
-		186F43F5243CC17500B4F820 /* XICDKNightVersionTextColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43BD243CC17500B4F820 /* XICDKNightVersionTextColorOpt.h */; };
-		186F43F6243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43BE243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.m */; };
-		186F43F7243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43BF243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.h */; };
-		186F43F8243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43C0243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.h */; };
-		186F43F9243CC17500B4F820 /* XICDKNightVersionTextColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43C1243CC17500B4F820 /* XICDKNightVersionTextColorOpt.m */; };
-		186F43FA243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43C2243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.h */; };
-		186F43FB243CC17500B4F820 /* XICDKColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43C3243CC17500B4F820 /* XICDKColorPicker.m */; };
-		186F43FC243CC17500B4F820 /* XICDKNightVersionColorArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43C5243CC17500B4F820 /* XICDKNightVersionColorArgs.h */; };
-		186F43FD243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43C6243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.m */; };
-		186F43FE243CC17500B4F820 /* XICDKNightVersionColorArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43C7243CC17500B4F820 /* XICDKNightVersionColorArgs.m */; };
-		186F43FF243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43C8243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.h */; };
-		186F4400243CC17500B4F820 /* XICDKNightVersionSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43C9243CC17500B4F820 /* XICDKNightVersionSDK.m */; };
-		186F4401243CC17500B4F820 /* XICProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43CB243CC17500B4F820 /* XICProtocols.h */; };
-		186F4402243CC17500B4F820 /* XICCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43CC243CC17500B4F820 /* XICCommand.m */; };
-		186F4403243CC17500B4F820 /* XICDefined.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43CD243CC17500B4F820 /* XICDefined.h */; };
-		186F4404243CC17500B4F820 /* XICCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43CE243CC17500B4F820 /* XICCommand.h */; };
-		186F4405243CC17500B4F820 /* XICDefaultSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43D0243CC17500B4F820 /* XICDefaultSDK.m */; };
-		186F4406243CC17500B4F820 /* XICDefaultBorderOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43D2243CC17500B4F820 /* XICDefaultBorderOpt.h */; };
-		186F4407243CC17500B4F820 /* XICDefaultTxtColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43D3243CC17500B4F820 /* XICDefaultTxtColorOpt.m */; };
-		186F4408243CC17500B4F820 /* XICDefaultCornerOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43D4243CC17500B4F820 /* XICDefaultCornerOpt.h */; };
-		186F4409243CC17500B4F820 /* XICDefaultBGColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43D5243CC17500B4F820 /* XICDefaultBGColorOpt.m */; };
-		186F440A243CC17500B4F820 /* XICDefaultHiddenOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43D6243CC17500B4F820 /* XICDefaultHiddenOpt.m */; };
-		186F440B243CC17500B4F820 /* XICDefaultFontOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43D7243CC17500B4F820 /* XICDefaultFontOpt.h */; };
-		186F440C243CC17500B4F820 /* XICDefaultCornerOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43D8243CC17500B4F820 /* XICDefaultCornerOpt.m */; };
-		186F440D243CC17500B4F820 /* XICDefaultBGColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43D9243CC17500B4F820 /* XICDefaultBGColorOpt.h */; };
-		186F440E243CC17500B4F820 /* XICDefaultTxtColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43DA243CC17500B4F820 /* XICDefaultTxtColorOpt.h */; };
-		186F440F243CC17500B4F820 /* XICDefaultBorderOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43DB243CC17500B4F820 /* XICDefaultBorderOpt.m */; };
-		186F4410243CC17500B4F820 /* XICDefaultFontOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43DC243CC17500B4F820 /* XICDefaultFontOpt.m */; };
-		186F4411243CC17500B4F820 /* XICDefaultHiddenOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43DD243CC17500B4F820 /* XICDefaultHiddenOpt.h */; };
-		186F4412243CC17500B4F820 /* XICDefaultDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43DE243CC17500B4F820 /* XICDefaultDocument.h */; };
-		186F4413243CC17500B4F820 /* XICDefaultSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43DF243CC17500B4F820 /* XICDefaultSDK.h */; };
-		186F4414243CC17500B4F820 /* XICDefaultBorderArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43E1243CC17500B4F820 /* XICDefaultBorderArgs.m */; };
-		186F4415243CC17500B4F820 /* XICDefaultFontArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43E2243CC17500B4F820 /* XICDefaultFontArgs.h */; };
-		186F4416243CC17500B4F820 /* XICDefaultColorArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43E3243CC17500B4F820 /* XICDefaultColorArgs.m */; };
-		186F4417243CC17500B4F820 /* XICDefaultCornerArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43E4243CC17500B4F820 /* XICDefaultCornerArgs.h */; };
-		186F4418243CC17500B4F820 /* XICDefaultFontArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43E5243CC17500B4F820 /* XICDefaultFontArgs.m */; };
-		186F4419243CC17500B4F820 /* XICDefaultBorderArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43E6243CC17500B4F820 /* XICDefaultBorderArgs.h */; };
-		186F441A243CC17500B4F820 /* XICDefaultColorArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43E7243CC17500B4F820 /* XICDefaultColorArgs.h */; };
-		186F441B243CC17500B4F820 /* XICDefaultCornerArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43E8243CC17500B4F820 /* XICDefaultCornerArgs.m */; };
-		186F441C243CC17500B4F820 /* XICRuntimeWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43EA243CC17500B4F820 /* XICRuntimeWork.h */; };
-		186F441D243CC17500B4F820 /* XICRuntimeWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43EB243CC17500B4F820 /* XICRuntimeWork.m */; };
-		186F441E243CC17500B4F820 /* XICMethodsBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43ED243CC17500B4F820 /* XICMethodsBox.h */; };
-		186F441F243CC17500B4F820 /* XICMethodsBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F43EE243CC17500B4F820 /* XICMethodsBox.m */; };
-		186F4420243CC17500B4F820 /* XICDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F43EF243CC17500B4F820 /* XICDocument.h */; };
+		1844F73C2451B4B3009820C5 /* XICDKNightVersionDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F6FF2451B4B3009820C5 /* XICDKNightVersionDocument.h */; };
+		1844F73D2451B4B3009820C5 /* XICDKColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7002451B4B3009820C5 /* XICDKColorPicker.h */; };
+		1844F73E2451B4B3009820C5 /* XICDKNightVersionSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7012451B4B3009820C5 /* XICDKNightVersionSDK.h */; };
+		1844F73F2451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7032451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.m */; };
+		1844F7402451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7042451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.m */; };
+		1844F7412451B4B3009820C5 /* XICDKNightVersionTextColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7052451B4B3009820C5 /* XICDKNightVersionTextColorOpt.h */; };
+		1844F7422451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7062451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.m */; };
+		1844F7432451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7072451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.h */; };
+		1844F7442451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7082451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.h */; };
+		1844F7452451B4B3009820C5 /* XICDKNightVersionTextColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7092451B4B3009820C5 /* XICDKNightVersionTextColorOpt.m */; };
+		1844F7462451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F70A2451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.h */; };
+		1844F7472451B4B3009820C5 /* XICDKColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F70B2451B4B3009820C5 /* XICDKColorPicker.m */; };
+		1844F7482451B4B3009820C5 /* XICDKNightVersionColorArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F70D2451B4B3009820C5 /* XICDKNightVersionColorArgs.h */; };
+		1844F7492451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F70E2451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.m */; };
+		1844F74A2451B4B3009820C5 /* XICDKNightVersionColorArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F70F2451B4B3009820C5 /* XICDKNightVersionColorArgs.m */; };
+		1844F74B2451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7102451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.h */; };
+		1844F74C2451B4B3009820C5 /* XICDKNightVersionSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7112451B4B3009820C5 /* XICDKNightVersionSDK.m */; };
+		1844F74D2451B4B3009820C5 /* Xib+XICSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7132451B4B3009820C5 /* Xib+XICSupport.h */; };
+		1844F74E2451B4B3009820C5 /* XICProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7142451B4B3009820C5 /* XICProtocols.h */; };
+		1844F74F2451B4B3009820C5 /* XICDefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7152451B4B3009820C5 /* XICDefined.m */; };
+		1844F7502451B4B3009820C5 /* XICCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7162451B4B3009820C5 /* XICCommand.m */; };
+		1844F7512451B4B3009820C5 /* Xib+XICSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7172451B4B3009820C5 /* Xib+XICSupport.m */; };
+		1844F7522451B4B3009820C5 /* XICDefined.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7182451B4B3009820C5 /* XICDefined.h */; };
+		1844F7532451B4B3009820C5 /* XICCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7192451B4B3009820C5 /* XICCommand.h */; };
+		1844F7542451B4B3009820C5 /* XICDefaultSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F71B2451B4B3009820C5 /* XICDefaultSDK.m */; };
+		1844F7552451B4B3009820C5 /* XICDefaultBorderOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F71D2451B4B3009820C5 /* XICDefaultBorderOpt.h */; };
+		1844F7562451B4B3009820C5 /* XICDefaultTxtColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F71E2451B4B3009820C5 /* XICDefaultTxtColorOpt.m */; };
+		1844F7572451B4B3009820C5 /* XICDefaultCornerOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F71F2451B4B3009820C5 /* XICDefaultCornerOpt.h */; };
+		1844F7582451B4B3009820C5 /* XICDefaultBGColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7202451B4B3009820C5 /* XICDefaultBGColorOpt.m */; };
+		1844F7592451B4B3009820C5 /* XICDefaultHiddenOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7212451B4B3009820C5 /* XICDefaultHiddenOpt.m */; };
+		1844F75A2451B4B3009820C5 /* XICDefaultFontOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7222451B4B3009820C5 /* XICDefaultFontOpt.h */; };
+		1844F75B2451B4B3009820C5 /* XICDefaultCornerOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7232451B4B3009820C5 /* XICDefaultCornerOpt.m */; };
+		1844F75C2451B4B3009820C5 /* XICDefaultBGColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7242451B4B3009820C5 /* XICDefaultBGColorOpt.h */; };
+		1844F75D2451B4B3009820C5 /* XICDefaultTxtColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7252451B4B3009820C5 /* XICDefaultTxtColorOpt.h */; };
+		1844F75E2451B4B3009820C5 /* XICDefaultBorderOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7262451B4B3009820C5 /* XICDefaultBorderOpt.m */; };
+		1844F75F2451B4B3009820C5 /* XICDefaultFontOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7272451B4B3009820C5 /* XICDefaultFontOpt.m */; };
+		1844F7602451B4B3009820C5 /* XICDefaultHiddenOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7282451B4B3009820C5 /* XICDefaultHiddenOpt.h */; };
+		1844F7612451B4B3009820C5 /* XICDefaultDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7292451B4B3009820C5 /* XICDefaultDocument.h */; };
+		1844F7622451B4B3009820C5 /* XICDefaultSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F72A2451B4B3009820C5 /* XICDefaultSDK.h */; };
+		1844F7632451B4B3009820C5 /* XICDefaultBorderArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F72C2451B4B3009820C5 /* XICDefaultBorderArgs.m */; };
+		1844F7642451B4B3009820C5 /* XICDefaultFontArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F72D2451B4B3009820C5 /* XICDefaultFontArgs.h */; };
+		1844F7652451B4B3009820C5 /* XICDefaultColorArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F72E2451B4B3009820C5 /* XICDefaultColorArgs.m */; };
+		1844F7662451B4B3009820C5 /* XICDefaultCornerArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F72F2451B4B3009820C5 /* XICDefaultCornerArgs.h */; };
+		1844F7672451B4B3009820C5 /* XICDefaultFontArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7302451B4B3009820C5 /* XICDefaultFontArgs.m */; };
+		1844F7682451B4B3009820C5 /* XICDefaultBorderArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7312451B4B3009820C5 /* XICDefaultBorderArgs.h */; };
+		1844F7692451B4B3009820C5 /* XICDefaultColorArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7322451B4B3009820C5 /* XICDefaultColorArgs.h */; };
+		1844F76A2451B4B3009820C5 /* XICDefaultCornerArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7332451B4B3009820C5 /* XICDefaultCornerArgs.m */; };
+		1844F76B2451B4B3009820C5 /* XICRuntimeWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7352451B4B3009820C5 /* XICRuntimeWork.h */; };
+		1844F76C2451B4B3009820C5 /* XICRuntimeWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7362451B4B3009820C5 /* XICRuntimeWork.m */; };
+		1844F76D2451B4B3009820C5 /* XICMethodsBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F7382451B4B3009820C5 /* XICMethodsBox.h */; };
+		1844F76E2451B4B3009820C5 /* XICMethodsBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844F7392451B4B3009820C5 /* XICMethodsBox.m */; };
+		1844F76F2451B4B3009820C5 /* XICDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 1844F73A2451B4B3009820C5 /* XICDocument.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		181DBC64243C380800571CF3 /* XICLibMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XICLibMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		181DBC67243C380800571CF3 /* XICLibMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XICLibMac.h; sourceTree = "<group>"; };
 		181DBC68243C380800571CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		186F43B7243CC17500B4F820 /* XICDKNightVersionDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionDocument.h; sourceTree = "<group>"; };
-		186F43B8243CC17500B4F820 /* XICDKColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKColorPicker.h; sourceTree = "<group>"; };
-		186F43B9243CC17500B4F820 /* XICDKNightVersionSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionSDK.h; sourceTree = "<group>"; };
-		186F43BB243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionTextColorKeyOpt.m; sourceTree = "<group>"; };
-		186F43BC243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionBackgroundColorOpt.m; sourceTree = "<group>"; };
-		186F43BD243CC17500B4F820 /* XICDKNightVersionTextColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionTextColorOpt.h; sourceTree = "<group>"; };
-		186F43BE243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionBackgroundColorKeyOpt.m; sourceTree = "<group>"; };
-		186F43BF243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionTextColorKeyOpt.h; sourceTree = "<group>"; };
-		186F43C0243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionBackgroundColorKeyOpt.h; sourceTree = "<group>"; };
-		186F43C1243CC17500B4F820 /* XICDKNightVersionTextColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionTextColorOpt.m; sourceTree = "<group>"; };
-		186F43C2243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionBackgroundColorOpt.h; sourceTree = "<group>"; };
-		186F43C3243CC17500B4F820 /* XICDKColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKColorPicker.m; sourceTree = "<group>"; };
-		186F43C5243CC17500B4F820 /* XICDKNightVersionColorArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionColorArgs.h; sourceTree = "<group>"; };
-		186F43C6243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDKNightVersionColorKeyArgs.m; sourceTree = "<group>"; };
-		186F43C7243CC17500B4F820 /* XICDKNightVersionColorArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionColorArgs.m; sourceTree = "<group>"; };
-		186F43C8243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDKNightVersionColorKeyArgs.h; sourceTree = "<group>"; };
-		186F43C9243CC17500B4F820 /* XICDKNightVersionSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionSDK.m; sourceTree = "<group>"; };
-		186F43CB243CC17500B4F820 /* XICProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICProtocols.h; sourceTree = "<group>"; };
-		186F43CC243CC17500B4F820 /* XICCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICCommand.m; sourceTree = "<group>"; };
-		186F43CD243CC17500B4F820 /* XICDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefined.h; sourceTree = "<group>"; };
-		186F43CE243CC17500B4F820 /* XICCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICCommand.h; sourceTree = "<group>"; };
-		186F43D0243CC17500B4F820 /* XICDefaultSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultSDK.m; sourceTree = "<group>"; };
-		186F43D2243CC17500B4F820 /* XICDefaultBorderOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBorderOpt.h; sourceTree = "<group>"; };
-		186F43D3243CC17500B4F820 /* XICDefaultTxtColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultTxtColorOpt.m; sourceTree = "<group>"; };
-		186F43D4243CC17500B4F820 /* XICDefaultCornerOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultCornerOpt.h; sourceTree = "<group>"; };
-		186F43D5243CC17500B4F820 /* XICDefaultBGColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBGColorOpt.m; sourceTree = "<group>"; };
-		186F43D6243CC17500B4F820 /* XICDefaultHiddenOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultHiddenOpt.m; sourceTree = "<group>"; };
-		186F43D7243CC17500B4F820 /* XICDefaultFontOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultFontOpt.h; sourceTree = "<group>"; };
-		186F43D8243CC17500B4F820 /* XICDefaultCornerOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultCornerOpt.m; sourceTree = "<group>"; };
-		186F43D9243CC17500B4F820 /* XICDefaultBGColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBGColorOpt.h; sourceTree = "<group>"; };
-		186F43DA243CC17500B4F820 /* XICDefaultTxtColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultTxtColorOpt.h; sourceTree = "<group>"; };
-		186F43DB243CC17500B4F820 /* XICDefaultBorderOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBorderOpt.m; sourceTree = "<group>"; };
-		186F43DC243CC17500B4F820 /* XICDefaultFontOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultFontOpt.m; sourceTree = "<group>"; };
-		186F43DD243CC17500B4F820 /* XICDefaultHiddenOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultHiddenOpt.h; sourceTree = "<group>"; };
-		186F43DE243CC17500B4F820 /* XICDefaultDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultDocument.h; sourceTree = "<group>"; };
-		186F43DF243CC17500B4F820 /* XICDefaultSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultSDK.h; sourceTree = "<group>"; };
-		186F43E1243CC17500B4F820 /* XICDefaultBorderArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBorderArgs.m; sourceTree = "<group>"; };
-		186F43E2243CC17500B4F820 /* XICDefaultFontArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultFontArgs.h; sourceTree = "<group>"; };
-		186F43E3243CC17500B4F820 /* XICDefaultColorArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultColorArgs.m; sourceTree = "<group>"; };
-		186F43E4243CC17500B4F820 /* XICDefaultCornerArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultCornerArgs.h; sourceTree = "<group>"; };
-		186F43E5243CC17500B4F820 /* XICDefaultFontArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultFontArgs.m; sourceTree = "<group>"; };
-		186F43E6243CC17500B4F820 /* XICDefaultBorderArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBorderArgs.h; sourceTree = "<group>"; };
-		186F43E7243CC17500B4F820 /* XICDefaultColorArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultColorArgs.h; sourceTree = "<group>"; };
-		186F43E8243CC17500B4F820 /* XICDefaultCornerArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultCornerArgs.m; sourceTree = "<group>"; };
-		186F43EA243CC17500B4F820 /* XICRuntimeWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICRuntimeWork.h; sourceTree = "<group>"; };
-		186F43EB243CC17500B4F820 /* XICRuntimeWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICRuntimeWork.m; sourceTree = "<group>"; };
-		186F43ED243CC17500B4F820 /* XICMethodsBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICMethodsBox.h; sourceTree = "<group>"; };
-		186F43EE243CC17500B4F820 /* XICMethodsBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICMethodsBox.m; sourceTree = "<group>"; };
-		186F43EF243CC17500B4F820 /* XICDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDocument.h; sourceTree = "<group>"; };
+		1844F6FF2451B4B3009820C5 /* XICDKNightVersionDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionDocument.h; sourceTree = "<group>"; };
+		1844F7002451B4B3009820C5 /* XICDKColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKColorPicker.h; sourceTree = "<group>"; };
+		1844F7012451B4B3009820C5 /* XICDKNightVersionSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionSDK.h; sourceTree = "<group>"; };
+		1844F7032451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionTextColorKeyOpt.m; sourceTree = "<group>"; };
+		1844F7042451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionBackgroundColorOpt.m; sourceTree = "<group>"; };
+		1844F7052451B4B3009820C5 /* XICDKNightVersionTextColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionTextColorOpt.h; sourceTree = "<group>"; };
+		1844F7062451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionBackgroundColorKeyOpt.m; sourceTree = "<group>"; };
+		1844F7072451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionTextColorKeyOpt.h; sourceTree = "<group>"; };
+		1844F7082451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionBackgroundColorKeyOpt.h; sourceTree = "<group>"; };
+		1844F7092451B4B3009820C5 /* XICDKNightVersionTextColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionTextColorOpt.m; sourceTree = "<group>"; };
+		1844F70A2451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionBackgroundColorOpt.h; sourceTree = "<group>"; };
+		1844F70B2451B4B3009820C5 /* XICDKColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKColorPicker.m; sourceTree = "<group>"; };
+		1844F70D2451B4B3009820C5 /* XICDKNightVersionColorArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDKNightVersionColorArgs.h; sourceTree = "<group>"; };
+		1844F70E2451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDKNightVersionColorKeyArgs.m; sourceTree = "<group>"; };
+		1844F70F2451B4B3009820C5 /* XICDKNightVersionColorArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionColorArgs.m; sourceTree = "<group>"; };
+		1844F7102451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDKNightVersionColorKeyArgs.h; sourceTree = "<group>"; };
+		1844F7112451B4B3009820C5 /* XICDKNightVersionSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDKNightVersionSDK.m; sourceTree = "<group>"; };
+		1844F7132451B4B3009820C5 /* Xib+XICSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Xib+XICSupport.h"; sourceTree = "<group>"; };
+		1844F7142451B4B3009820C5 /* XICProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICProtocols.h; sourceTree = "<group>"; };
+		1844F7152451B4B3009820C5 /* XICDefined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefined.m; sourceTree = "<group>"; };
+		1844F7162451B4B3009820C5 /* XICCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICCommand.m; sourceTree = "<group>"; };
+		1844F7172451B4B3009820C5 /* Xib+XICSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Xib+XICSupport.m"; sourceTree = "<group>"; };
+		1844F7182451B4B3009820C5 /* XICDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefined.h; sourceTree = "<group>"; };
+		1844F7192451B4B3009820C5 /* XICCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICCommand.h; sourceTree = "<group>"; };
+		1844F71B2451B4B3009820C5 /* XICDefaultSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultSDK.m; sourceTree = "<group>"; };
+		1844F71D2451B4B3009820C5 /* XICDefaultBorderOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBorderOpt.h; sourceTree = "<group>"; };
+		1844F71E2451B4B3009820C5 /* XICDefaultTxtColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultTxtColorOpt.m; sourceTree = "<group>"; };
+		1844F71F2451B4B3009820C5 /* XICDefaultCornerOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultCornerOpt.h; sourceTree = "<group>"; };
+		1844F7202451B4B3009820C5 /* XICDefaultBGColorOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBGColorOpt.m; sourceTree = "<group>"; };
+		1844F7212451B4B3009820C5 /* XICDefaultHiddenOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultHiddenOpt.m; sourceTree = "<group>"; };
+		1844F7222451B4B3009820C5 /* XICDefaultFontOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultFontOpt.h; sourceTree = "<group>"; };
+		1844F7232451B4B3009820C5 /* XICDefaultCornerOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultCornerOpt.m; sourceTree = "<group>"; };
+		1844F7242451B4B3009820C5 /* XICDefaultBGColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBGColorOpt.h; sourceTree = "<group>"; };
+		1844F7252451B4B3009820C5 /* XICDefaultTxtColorOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultTxtColorOpt.h; sourceTree = "<group>"; };
+		1844F7262451B4B3009820C5 /* XICDefaultBorderOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBorderOpt.m; sourceTree = "<group>"; };
+		1844F7272451B4B3009820C5 /* XICDefaultFontOpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultFontOpt.m; sourceTree = "<group>"; };
+		1844F7282451B4B3009820C5 /* XICDefaultHiddenOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultHiddenOpt.h; sourceTree = "<group>"; };
+		1844F7292451B4B3009820C5 /* XICDefaultDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultDocument.h; sourceTree = "<group>"; };
+		1844F72A2451B4B3009820C5 /* XICDefaultSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultSDK.h; sourceTree = "<group>"; };
+		1844F72C2451B4B3009820C5 /* XICDefaultBorderArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultBorderArgs.m; sourceTree = "<group>"; };
+		1844F72D2451B4B3009820C5 /* XICDefaultFontArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultFontArgs.h; sourceTree = "<group>"; };
+		1844F72E2451B4B3009820C5 /* XICDefaultColorArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultColorArgs.m; sourceTree = "<group>"; };
+		1844F72F2451B4B3009820C5 /* XICDefaultCornerArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultCornerArgs.h; sourceTree = "<group>"; };
+		1844F7302451B4B3009820C5 /* XICDefaultFontArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultFontArgs.m; sourceTree = "<group>"; };
+		1844F7312451B4B3009820C5 /* XICDefaultBorderArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultBorderArgs.h; sourceTree = "<group>"; };
+		1844F7322451B4B3009820C5 /* XICDefaultColorArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDefaultColorArgs.h; sourceTree = "<group>"; };
+		1844F7332451B4B3009820C5 /* XICDefaultCornerArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICDefaultCornerArgs.m; sourceTree = "<group>"; };
+		1844F7352451B4B3009820C5 /* XICRuntimeWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICRuntimeWork.h; sourceTree = "<group>"; };
+		1844F7362451B4B3009820C5 /* XICRuntimeWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICRuntimeWork.m; sourceTree = "<group>"; };
+		1844F7382451B4B3009820C5 /* XICMethodsBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICMethodsBox.h; sourceTree = "<group>"; };
+		1844F7392451B4B3009820C5 /* XICMethodsBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICMethodsBox.m; sourceTree = "<group>"; };
+		1844F73A2451B4B3009820C5 /* XICDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICDocument.h; sourceTree = "<group>"; };
+		1844F73B2451B4B3009820C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,146 +151,150 @@
 		181DBC66243C380800571CF3 /* XICLibMac */ = {
 			isa = PBXGroup;
 			children = (
-				186F43B4243CC17500B4F820 /* XICommand */,
+				1844F6FC2451B4B3009820C5 /* XICommand */,
 				181DBC67243C380800571CF3 /* XICLibMac.h */,
 				181DBC68243C380800571CF3 /* Info.plist */,
 			);
 			path = XICLibMac;
 			sourceTree = "<group>";
 		};
-		186F43B4243CC17500B4F820 /* XICommand */ = {
+		1844F6FC2451B4B3009820C5 /* XICommand */ = {
 			isa = PBXGroup;
 			children = (
-				186F43B5243CC17500B4F820 /* SDKs */,
-				186F43CA243CC17500B4F820 /* Commons */,
-				186F43CF243CC17500B4F820 /* DefaultSDK */,
-				186F43E9243CC17500B4F820 /* Runtime */,
-				186F43EC243CC17500B4F820 /* MethodsBox */,
-				186F43EF243CC17500B4F820 /* XICDocument.h */,
+				1844F6FD2451B4B3009820C5 /* SDKs */,
+				1844F7122451B4B3009820C5 /* Commons */,
+				1844F71A2451B4B3009820C5 /* DefaultSDK */,
+				1844F7342451B4B3009820C5 /* Runtime */,
+				1844F7372451B4B3009820C5 /* MethodsBox */,
+				1844F73A2451B4B3009820C5 /* XICDocument.h */,
+				1844F73B2451B4B3009820C5 /* Info.plist */,
 			);
 			name = XICommand;
 			path = ../../../XICommand;
 			sourceTree = "<group>";
 		};
-		186F43B5243CC17500B4F820 /* SDKs */ = {
+		1844F6FD2451B4B3009820C5 /* SDKs */ = {
 			isa = PBXGroup;
 			children = (
-				186F43B6243CC17500B4F820 /* DKNightVersion */,
+				1844F6FE2451B4B3009820C5 /* DKNightVersion */,
 			);
 			path = SDKs;
 			sourceTree = "<group>";
 		};
-		186F43B6243CC17500B4F820 /* DKNightVersion */ = {
+		1844F6FE2451B4B3009820C5 /* DKNightVersion */ = {
 			isa = PBXGroup;
 			children = (
-				186F43B7243CC17500B4F820 /* XICDKNightVersionDocument.h */,
-				186F43B8243CC17500B4F820 /* XICDKColorPicker.h */,
-				186F43B9243CC17500B4F820 /* XICDKNightVersionSDK.h */,
-				186F43BA243CC17500B4F820 /* Option */,
-				186F43C3243CC17500B4F820 /* XICDKColorPicker.m */,
-				186F43C4243CC17500B4F820 /* Args */,
-				186F43C9243CC17500B4F820 /* XICDKNightVersionSDK.m */,
+				1844F6FF2451B4B3009820C5 /* XICDKNightVersionDocument.h */,
+				1844F7002451B4B3009820C5 /* XICDKColorPicker.h */,
+				1844F7012451B4B3009820C5 /* XICDKNightVersionSDK.h */,
+				1844F7022451B4B3009820C5 /* Option */,
+				1844F70B2451B4B3009820C5 /* XICDKColorPicker.m */,
+				1844F70C2451B4B3009820C5 /* Args */,
+				1844F7112451B4B3009820C5 /* XICDKNightVersionSDK.m */,
 			);
 			path = DKNightVersion;
 			sourceTree = "<group>";
 		};
-		186F43BA243CC17500B4F820 /* Option */ = {
+		1844F7022451B4B3009820C5 /* Option */ = {
 			isa = PBXGroup;
 			children = (
-				186F43BB243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.m */,
-				186F43BC243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.m */,
-				186F43BD243CC17500B4F820 /* XICDKNightVersionTextColorOpt.h */,
-				186F43BE243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.m */,
-				186F43BF243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.h */,
-				186F43C0243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.h */,
-				186F43C1243CC17500B4F820 /* XICDKNightVersionTextColorOpt.m */,
-				186F43C2243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.h */,
+				1844F7032451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.m */,
+				1844F7042451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.m */,
+				1844F7052451B4B3009820C5 /* XICDKNightVersionTextColorOpt.h */,
+				1844F7062451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.m */,
+				1844F7072451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.h */,
+				1844F7082451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.h */,
+				1844F7092451B4B3009820C5 /* XICDKNightVersionTextColorOpt.m */,
+				1844F70A2451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.h */,
 			);
 			path = Option;
 			sourceTree = "<group>";
 		};
-		186F43C4243CC17500B4F820 /* Args */ = {
+		1844F70C2451B4B3009820C5 /* Args */ = {
 			isa = PBXGroup;
 			children = (
-				186F43C5243CC17500B4F820 /* XICDKNightVersionColorArgs.h */,
-				186F43C6243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.m */,
-				186F43C7243CC17500B4F820 /* XICDKNightVersionColorArgs.m */,
-				186F43C8243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.h */,
+				1844F70D2451B4B3009820C5 /* XICDKNightVersionColorArgs.h */,
+				1844F70E2451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.m */,
+				1844F70F2451B4B3009820C5 /* XICDKNightVersionColorArgs.m */,
+				1844F7102451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.h */,
 			);
 			path = Args;
 			sourceTree = "<group>";
 		};
-		186F43CA243CC17500B4F820 /* Commons */ = {
+		1844F7122451B4B3009820C5 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				186F43CB243CC17500B4F820 /* XICProtocols.h */,
-				186F43CC243CC17500B4F820 /* XICCommand.m */,
-				186F43CD243CC17500B4F820 /* XICDefined.h */,
-				186F43CE243CC17500B4F820 /* XICCommand.h */,
+				1844F7132451B4B3009820C5 /* Xib+XICSupport.h */,
+				1844F7142451B4B3009820C5 /* XICProtocols.h */,
+				1844F7152451B4B3009820C5 /* XICDefined.m */,
+				1844F7162451B4B3009820C5 /* XICCommand.m */,
+				1844F7172451B4B3009820C5 /* Xib+XICSupport.m */,
+				1844F7182451B4B3009820C5 /* XICDefined.h */,
+				1844F7192451B4B3009820C5 /* XICCommand.h */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
 		};
-		186F43CF243CC17500B4F820 /* DefaultSDK */ = {
+		1844F71A2451B4B3009820C5 /* DefaultSDK */ = {
 			isa = PBXGroup;
 			children = (
-				186F43E0243CC17500B4F820 /* Args */,
-				186F43D1243CC17500B4F820 /* Option */,
-				186F43DE243CC17500B4F820 /* XICDefaultDocument.h */,
-				186F43DF243CC17500B4F820 /* XICDefaultSDK.h */,
-				186F43D0243CC17500B4F820 /* XICDefaultSDK.m */,
+				1844F71B2451B4B3009820C5 /* XICDefaultSDK.m */,
+				1844F71C2451B4B3009820C5 /* Option */,
+				1844F7292451B4B3009820C5 /* XICDefaultDocument.h */,
+				1844F72A2451B4B3009820C5 /* XICDefaultSDK.h */,
+				1844F72B2451B4B3009820C5 /* Args */,
 			);
 			path = DefaultSDK;
 			sourceTree = "<group>";
 		};
-		186F43D1243CC17500B4F820 /* Option */ = {
+		1844F71C2451B4B3009820C5 /* Option */ = {
 			isa = PBXGroup;
 			children = (
-				186F43D9243CC17500B4F820 /* XICDefaultBGColorOpt.h */,
-				186F43D5243CC17500B4F820 /* XICDefaultBGColorOpt.m */,
-				186F43D2243CC17500B4F820 /* XICDefaultBorderOpt.h */,
-				186F43DB243CC17500B4F820 /* XICDefaultBorderOpt.m */,
-				186F43D4243CC17500B4F820 /* XICDefaultCornerOpt.h */,
-				186F43D8243CC17500B4F820 /* XICDefaultCornerOpt.m */,
-				186F43D7243CC17500B4F820 /* XICDefaultFontOpt.h */,
-				186F43DC243CC17500B4F820 /* XICDefaultFontOpt.m */,
-				186F43DD243CC17500B4F820 /* XICDefaultHiddenOpt.h */,
-				186F43D6243CC17500B4F820 /* XICDefaultHiddenOpt.m */,
-				186F43DA243CC17500B4F820 /* XICDefaultTxtColorOpt.h */,
-				186F43D3243CC17500B4F820 /* XICDefaultTxtColorOpt.m */,
+				1844F71D2451B4B3009820C5 /* XICDefaultBorderOpt.h */,
+				1844F71E2451B4B3009820C5 /* XICDefaultTxtColorOpt.m */,
+				1844F71F2451B4B3009820C5 /* XICDefaultCornerOpt.h */,
+				1844F7202451B4B3009820C5 /* XICDefaultBGColorOpt.m */,
+				1844F7212451B4B3009820C5 /* XICDefaultHiddenOpt.m */,
+				1844F7222451B4B3009820C5 /* XICDefaultFontOpt.h */,
+				1844F7232451B4B3009820C5 /* XICDefaultCornerOpt.m */,
+				1844F7242451B4B3009820C5 /* XICDefaultBGColorOpt.h */,
+				1844F7252451B4B3009820C5 /* XICDefaultTxtColorOpt.h */,
+				1844F7262451B4B3009820C5 /* XICDefaultBorderOpt.m */,
+				1844F7272451B4B3009820C5 /* XICDefaultFontOpt.m */,
+				1844F7282451B4B3009820C5 /* XICDefaultHiddenOpt.h */,
 			);
 			path = Option;
 			sourceTree = "<group>";
 		};
-		186F43E0243CC17500B4F820 /* Args */ = {
+		1844F72B2451B4B3009820C5 /* Args */ = {
 			isa = PBXGroup;
 			children = (
-				186F43E6243CC17500B4F820 /* XICDefaultBorderArgs.h */,
-				186F43E1243CC17500B4F820 /* XICDefaultBorderArgs.m */,
-				186F43E7243CC17500B4F820 /* XICDefaultColorArgs.h */,
-				186F43E3243CC17500B4F820 /* XICDefaultColorArgs.m */,
-				186F43E4243CC17500B4F820 /* XICDefaultCornerArgs.h */,
-				186F43E8243CC17500B4F820 /* XICDefaultCornerArgs.m */,
-				186F43E2243CC17500B4F820 /* XICDefaultFontArgs.h */,
-				186F43E5243CC17500B4F820 /* XICDefaultFontArgs.m */,
+				1844F72C2451B4B3009820C5 /* XICDefaultBorderArgs.m */,
+				1844F72D2451B4B3009820C5 /* XICDefaultFontArgs.h */,
+				1844F72E2451B4B3009820C5 /* XICDefaultColorArgs.m */,
+				1844F72F2451B4B3009820C5 /* XICDefaultCornerArgs.h */,
+				1844F7302451B4B3009820C5 /* XICDefaultFontArgs.m */,
+				1844F7312451B4B3009820C5 /* XICDefaultBorderArgs.h */,
+				1844F7322451B4B3009820C5 /* XICDefaultColorArgs.h */,
+				1844F7332451B4B3009820C5 /* XICDefaultCornerArgs.m */,
 			);
 			path = Args;
 			sourceTree = "<group>";
 		};
-		186F43E9243CC17500B4F820 /* Runtime */ = {
+		1844F7342451B4B3009820C5 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
-				186F43EA243CC17500B4F820 /* XICRuntimeWork.h */,
-				186F43EB243CC17500B4F820 /* XICRuntimeWork.m */,
+				1844F7352451B4B3009820C5 /* XICRuntimeWork.h */,
+				1844F7362451B4B3009820C5 /* XICRuntimeWork.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
 		};
-		186F43EC243CC17500B4F820 /* MethodsBox */ = {
+		1844F7372451B4B3009820C5 /* MethodsBox */ = {
 			isa = PBXGroup;
 			children = (
-				186F43ED243CC17500B4F820 /* XICMethodsBox.h */,
-				186F43EE243CC17500B4F820 /* XICMethodsBox.m */,
+				1844F7382451B4B3009820C5 /* XICMethodsBox.h */,
+				1844F7392451B4B3009820C5 /* XICMethodsBox.m */,
 			);
 			path = MethodsBox;
 			sourceTree = "<group>";
@@ -295,34 +306,35 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186F441A243CC17500B4F820 /* XICDefaultColorArgs.h in Headers */,
-				186F43FA243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.h in Headers */,
+				1844F7572451B4B3009820C5 /* XICDefaultCornerOpt.h in Headers */,
+				1844F7522451B4B3009820C5 /* XICDefined.h in Headers */,
+				1844F76F2451B4B3009820C5 /* XICDocument.h in Headers */,
+				1844F76D2451B4B3009820C5 /* XICMethodsBox.h in Headers */,
+				1844F7462451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.h in Headers */,
+				1844F7662451B4B3009820C5 /* XICDefaultCornerArgs.h in Headers */,
+				1844F74E2451B4B3009820C5 /* XICProtocols.h in Headers */,
 				181DBC69243C380800571CF3 /* XICLibMac.h in Headers */,
-				186F43F8243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.h in Headers */,
-				186F43F7243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.h in Headers */,
-				186F43F2243CC17500B4F820 /* XICDKNightVersionSDK.h in Headers */,
-				186F4413243CC17500B4F820 /* XICDefaultSDK.h in Headers */,
-				186F4403243CC17500B4F820 /* XICDefined.h in Headers */,
-				186F441E243CC17500B4F820 /* XICMethodsBox.h in Headers */,
-				186F43FC243CC17500B4F820 /* XICDKNightVersionColorArgs.h in Headers */,
-				186F4419243CC17500B4F820 /* XICDefaultBorderArgs.h in Headers */,
-				186F440D243CC17500B4F820 /* XICDefaultBGColorOpt.h in Headers */,
-				186F43FF243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.h in Headers */,
-				186F4401243CC17500B4F820 /* XICProtocols.h in Headers */,
-				186F441C243CC17500B4F820 /* XICRuntimeWork.h in Headers */,
-				186F4417243CC17500B4F820 /* XICDefaultCornerArgs.h in Headers */,
-				186F4408243CC17500B4F820 /* XICDefaultCornerOpt.h in Headers */,
-				186F43F5243CC17500B4F820 /* XICDKNightVersionTextColorOpt.h in Headers */,
-				186F4420243CC17500B4F820 /* XICDocument.h in Headers */,
-				186F4411243CC17500B4F820 /* XICDefaultHiddenOpt.h in Headers */,
-				186F4404243CC17500B4F820 /* XICCommand.h in Headers */,
-				186F440B243CC17500B4F820 /* XICDefaultFontOpt.h in Headers */,
-				186F4406243CC17500B4F820 /* XICDefaultBorderOpt.h in Headers */,
-				186F43F1243CC17500B4F820 /* XICDKColorPicker.h in Headers */,
-				186F440E243CC17500B4F820 /* XICDefaultTxtColorOpt.h in Headers */,
-				186F4415243CC17500B4F820 /* XICDefaultFontArgs.h in Headers */,
-				186F4412243CC17500B4F820 /* XICDefaultDocument.h in Headers */,
-				186F43F0243CC17500B4F820 /* XICDKNightVersionDocument.h in Headers */,
+				1844F7692451B4B3009820C5 /* XICDefaultColorArgs.h in Headers */,
+				1844F7442451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.h in Headers */,
+				1844F7552451B4B3009820C5 /* XICDefaultBorderOpt.h in Headers */,
+				1844F7682451B4B3009820C5 /* XICDefaultBorderArgs.h in Headers */,
+				1844F7602451B4B3009820C5 /* XICDefaultHiddenOpt.h in Headers */,
+				1844F7432451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.h in Headers */,
+				1844F73E2451B4B3009820C5 /* XICDKNightVersionSDK.h in Headers */,
+				1844F7622451B4B3009820C5 /* XICDefaultSDK.h in Headers */,
+				1844F74D2451B4B3009820C5 /* Xib+XICSupport.h in Headers */,
+				1844F7482451B4B3009820C5 /* XICDKNightVersionColorArgs.h in Headers */,
+				1844F74B2451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.h in Headers */,
+				1844F7412451B4B3009820C5 /* XICDKNightVersionTextColorOpt.h in Headers */,
+				1844F73D2451B4B3009820C5 /* XICDKColorPicker.h in Headers */,
+				1844F75C2451B4B3009820C5 /* XICDefaultBGColorOpt.h in Headers */,
+				1844F75D2451B4B3009820C5 /* XICDefaultTxtColorOpt.h in Headers */,
+				1844F73C2451B4B3009820C5 /* XICDKNightVersionDocument.h in Headers */,
+				1844F7612451B4B3009820C5 /* XICDefaultDocument.h in Headers */,
+				1844F75A2451B4B3009820C5 /* XICDefaultFontOpt.h in Headers */,
+				1844F76B2451B4B3009820C5 /* XICRuntimeWork.h in Headers */,
+				1844F7642451B4B3009820C5 /* XICDefaultFontArgs.h in Headers */,
+				1844F7532451B4B3009820C5 /* XICCommand.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,28 +406,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186F43FE243CC17500B4F820 /* XICDKNightVersionColorArgs.m in Sources */,
-				186F4410243CC17500B4F820 /* XICDefaultFontOpt.m in Sources */,
-				186F4402243CC17500B4F820 /* XICCommand.m in Sources */,
-				186F43F9243CC17500B4F820 /* XICDKNightVersionTextColorOpt.m in Sources */,
-				186F4407243CC17500B4F820 /* XICDefaultTxtColorOpt.m in Sources */,
-				186F441F243CC17500B4F820 /* XICMethodsBox.m in Sources */,
-				186F43F6243CC17500B4F820 /* XICDKNightVersionBackgroundColorKeyOpt.m in Sources */,
-				186F440F243CC17500B4F820 /* XICDefaultBorderOpt.m in Sources */,
-				186F441D243CC17500B4F820 /* XICRuntimeWork.m in Sources */,
-				186F440A243CC17500B4F820 /* XICDefaultHiddenOpt.m in Sources */,
-				186F441B243CC17500B4F820 /* XICDefaultCornerArgs.m in Sources */,
-				186F4414243CC17500B4F820 /* XICDefaultBorderArgs.m in Sources */,
-				186F43F3243CC17500B4F820 /* XICDKNightVersionTextColorKeyOpt.m in Sources */,
-				186F4405243CC17500B4F820 /* XICDefaultSDK.m in Sources */,
-				186F43F4243CC17500B4F820 /* XICDKNightVersionBackgroundColorOpt.m in Sources */,
-				186F43FB243CC17500B4F820 /* XICDKColorPicker.m in Sources */,
-				186F4416243CC17500B4F820 /* XICDefaultColorArgs.m in Sources */,
-				186F4418243CC17500B4F820 /* XICDefaultFontArgs.m in Sources */,
-				186F4409243CC17500B4F820 /* XICDefaultBGColorOpt.m in Sources */,
-				186F4400243CC17500B4F820 /* XICDKNightVersionSDK.m in Sources */,
-				186F43FD243CC17500B4F820 /* XDDKNightVersionColorKeyArgs.m in Sources */,
-				186F440C243CC17500B4F820 /* XICDefaultCornerOpt.m in Sources */,
+				1844F7512451B4B3009820C5 /* Xib+XICSupport.m in Sources */,
+				1844F74A2451B4B3009820C5 /* XICDKNightVersionColorArgs.m in Sources */,
+				1844F7452451B4B3009820C5 /* XICDKNightVersionTextColorOpt.m in Sources */,
+				1844F7582451B4B3009820C5 /* XICDefaultBGColorOpt.m in Sources */,
+				1844F7422451B4B3009820C5 /* XICDKNightVersionBackgroundColorKeyOpt.m in Sources */,
+				1844F7652451B4B3009820C5 /* XICDefaultColorArgs.m in Sources */,
+				1844F7632451B4B3009820C5 /* XICDefaultBorderArgs.m in Sources */,
+				1844F75B2451B4B3009820C5 /* XICDefaultCornerOpt.m in Sources */,
+				1844F7672451B4B3009820C5 /* XICDefaultFontArgs.m in Sources */,
+				1844F73F2451B4B3009820C5 /* XICDKNightVersionTextColorKeyOpt.m in Sources */,
+				1844F76C2451B4B3009820C5 /* XICRuntimeWork.m in Sources */,
+				1844F76E2451B4B3009820C5 /* XICMethodsBox.m in Sources */,
+				1844F7542451B4B3009820C5 /* XICDefaultSDK.m in Sources */,
+				1844F7592451B4B3009820C5 /* XICDefaultHiddenOpt.m in Sources */,
+				1844F75E2451B4B3009820C5 /* XICDefaultBorderOpt.m in Sources */,
+				1844F7402451B4B3009820C5 /* XICDKNightVersionBackgroundColorOpt.m in Sources */,
+				1844F76A2451B4B3009820C5 /* XICDefaultCornerArgs.m in Sources */,
+				1844F7472451B4B3009820C5 /* XICDKColorPicker.m in Sources */,
+				1844F7502451B4B3009820C5 /* XICCommand.m in Sources */,
+				1844F74F2451B4B3009820C5 /* XICDefined.m in Sources */,
+				1844F74C2451B4B3009820C5 /* XICDKNightVersionSDK.m in Sources */,
+				1844F7562451B4B3009820C5 /* XICDefaultTxtColorOpt.m in Sources */,
+				1844F7492451B4B3009820C5 /* XDDKNightVersionColorKeyArgs.m in Sources */,
+				1844F75F2451B4B3009820C5 /* XICDefaultFontOpt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

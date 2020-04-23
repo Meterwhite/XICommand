@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "XICommand"
-  s.version      = "1.0.0"
-  s.summary      = "Xcode interface command.The core function is to support the dark mode through the XIB file."
+  s.version      = "1.0.1"
+  s.summary      = "Let XIB execute the command line.It supports the dark mode through the XIB file.Unlimited expansion of XIB editor.(swift,objc,objective-c)"
   s.homepage     = "https://github.com/Meterwhite/XICommand"
   s.license      = "MIT"
   s.author       = { "Meterwhite" => "meterwhite@outlook.com" }

@@ -12,7 +12,7 @@
 /// A command.
 @interface XICCommand : NSObject
 
-/// Outlet name, property name, key for kvc.连线名，属性名。
+/// Outlet name, property name, key for kvc.`nil` if the window. command.连线名，属性名。窗口命令时为空。
 @property (nullable,nonatomic,copy)     NSString        *outlet;
 /// The option object.
 @property (nullable,nonatomic,strong)   id<XICOption>   opt;

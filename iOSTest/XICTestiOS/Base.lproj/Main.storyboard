@@ -71,7 +71,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mLy-ph-uN8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-214" y="980"/>
+            <point key="canvasLocation" x="-335" y="573"/>
         </scene>
         <!--Night VersionVC-->
         <scene sceneID="t3q-nu-CNM">
@@ -88,28 +88,43 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Collection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WA-hF-HKu">
-                                <rect key="frame" x="0.0" y="32" width="375" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Collection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eZ-bl-HvF">
                                 <rect key="frame" x="0.0" y="64" width="375" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Collection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eZ-bl-HvF">
+                                <rect key="frame" x="0.0" y="96" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WinCMD.Test Label txt and bg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgN-cy-wed">
+                                <rect key="frame" x="0.0" y="32" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="CMDWindow">
+                                        <string key="value">dkdo txtk TEXT
+dkdo bg 0XF2F2F2 0x4d4d4d 3c3c3c</string>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="lgN-cy-wed" firstAttribute="leading" secondItem="Sby-vk-7Sr" secondAttribute="leading" constant="0.01" id="0yD-9o-un8"/>
+                            <constraint firstItem="8WA-hF-HKu" firstAttribute="top" secondItem="lgN-cy-wed" secondAttribute="bottom" constant="8" symbolic="YES" id="6O2-kT-EJC"/>
                             <constraint firstItem="q0E-xV-Bu5" firstAttribute="top" secondItem="Sby-vk-7Sr" secondAttribute="top" id="D3P-4Y-TEU"/>
                             <constraint firstItem="8WA-hF-HKu" firstAttribute="trailing" secondItem="Sby-vk-7Sr" secondAttribute="trailing" id="D6c-pB-0eI"/>
                             <constraint firstItem="8eZ-bl-HvF" firstAttribute="leading" secondItem="Sby-vk-7Sr" secondAttribute="leading" id="NNp-Iy-Rks"/>
                             <constraint firstItem="8WA-hF-HKu" firstAttribute="leading" secondItem="Sby-vk-7Sr" secondAttribute="leading" id="S4t-4g-mHH"/>
+                            <constraint firstItem="lgN-cy-wed" firstAttribute="trailing" secondItem="Sby-vk-7Sr" secondAttribute="trailing" constant="0.01" id="WS3-T7-b7R"/>
                             <constraint firstItem="q0E-xV-Bu5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Sby-vk-7Sr" secondAttribute="leading" id="ack-nL-cZL"/>
                             <constraint firstItem="q0E-xV-Bu5" firstAttribute="centerX" secondItem="Czk-zf-DUp" secondAttribute="centerX" id="cqs-L0-Kcj"/>
                             <constraint firstItem="Sby-vk-7Sr" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="q0E-xV-Bu5" secondAttribute="trailing" id="nuw-jQ-6Se"/>
-                            <constraint firstItem="8WA-hF-HKu" firstAttribute="top" secondItem="q0E-xV-Bu5" secondAttribute="bottom" constant="8" symbolic="YES" id="pgA-a9-JE3"/>
+                            <constraint firstItem="lgN-cy-wed" firstAttribute="top" secondItem="q0E-xV-Bu5" secondAttribute="bottom" constant="8" symbolic="YES" id="ox3-Zs-9jB"/>
                             <constraint firstItem="8eZ-bl-HvF" firstAttribute="top" secondItem="8WA-hF-HKu" secondAttribute="bottom" constant="8" symbolic="YES" id="uH7-Xa-eEy"/>
                             <constraint firstItem="8eZ-bl-HvF" firstAttribute="trailing" secondItem="Sby-vk-7Sr" secondAttribute="trailing" id="vlw-jr-yOY"/>
                         </constraints>
@@ -139,14 +154,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YI7-2v-PwF">
-                                <rect key="frame" x="50" y="50" width="50" height="50"/>
+                                <rect key="frame" x="15" y="50" width="50" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="Yhc-1k-p8A"/>
                                     <constraint firstAttribute="height" constant="50" id="r13-Bm-7h7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Btn">
+                                <state key="normal" title="Bt">
                                     <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -203,6 +218,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W.Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4l-oY-8Zz">
+                                <rect key="frame" x="0.0" y="355" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="pyk-4U-Qfd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="CMDWindow" value="sudo font 25 B sudo bgcolor FF8822 sudo txtcolor 0088FF"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjv-0i-SfQ">
+                                <rect key="frame" x="80" y="50" width="50" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="5Po-gs-ZuG"/>
+                                    <constraint firstAttribute="height" constant="50" id="Z7X-XR-1GY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="W.Bt">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="CMDWindow">
+                                        <string key="value">sudo border 0XFF0000 1.5
+sudo corner 5.00</string>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -210,12 +255,17 @@
                             <constraint firstItem="5Kz-zU-yoS" firstAttribute="trailing" secondItem="ff3-o7-Sfv" secondAttribute="trailing" constant="0.01" id="7Ti-z9-IfL"/>
                             <constraint firstItem="lcg-Yf-caV" firstAttribute="top" secondItem="YI7-2v-PwF" secondAttribute="bottom" constant="10" id="CQy-Eu-njK"/>
                             <constraint firstItem="Q4R-jA-PFb" firstAttribute="top" secondItem="ff3-o7-Sfv" secondAttribute="bottom" constant="10" id="CiH-R9-t88"/>
+                            <constraint firstItem="F4l-oY-8Zz" firstAttribute="trailing" secondItem="5Kz-zU-yoS" secondAttribute="trailing" constant="0.01" id="FeJ-bz-Tog"/>
+                            <constraint firstItem="F4l-oY-8Zz" firstAttribute="top" secondItem="Q4R-jA-PFb" secondAttribute="bottom" constant="5" id="MTO-DR-PLo"/>
                             <constraint firstItem="5Kz-zU-yoS" firstAttribute="trailing" secondItem="Q4R-jA-PFb" secondAttribute="trailing" constant="0.01" id="NkF-as-lHC"/>
                             <constraint firstItem="ff3-o7-Sfv" firstAttribute="top" secondItem="lcg-Yf-caV" secondAttribute="bottom" constant="10" id="RfT-Vb-h6C"/>
                             <constraint firstItem="Q4R-jA-PFb" firstAttribute="leading" secondItem="5Kz-zU-yoS" secondAttribute="leading" constant="0.01" id="SaR-wm-5Ir"/>
-                            <constraint firstItem="YI7-2v-PwF" firstAttribute="leading" secondItem="5Kz-zU-yoS" secondAttribute="leading" constant="50" id="egz-Uv-8GS"/>
+                            <constraint firstItem="Hjv-0i-SfQ" firstAttribute="leading" secondItem="YI7-2v-PwF" secondAttribute="trailing" constant="15" id="eBP-HD-5Sv"/>
+                            <constraint firstItem="YI7-2v-PwF" firstAttribute="leading" secondItem="5Kz-zU-yoS" secondAttribute="leading" constant="15" id="egz-Uv-8GS"/>
                             <constraint firstItem="YI7-2v-PwF" firstAttribute="top" secondItem="5Kz-zU-yoS" secondAttribute="top" constant="50" id="mzh-cR-cAM"/>
                             <constraint firstItem="ff3-o7-Sfv" firstAttribute="leading" secondItem="5Kz-zU-yoS" secondAttribute="leading" constant="0.01" id="nFw-Vj-AKg"/>
+                            <constraint firstItem="Hjv-0i-SfQ" firstAttribute="top" secondItem="YI7-2v-PwF" secondAttribute="top" id="uYZ-2z-s5b"/>
+                            <constraint firstItem="F4l-oY-8Zz" firstAttribute="leading" secondItem="5Kz-zU-yoS" secondAttribute="leading" constant="0.01" id="yeE-l6-ngo"/>
                             <constraint firstItem="lcg-Yf-caV" firstAttribute="leading" secondItem="5Kz-zU-yoS" secondAttribute="leading" constant="0.01" id="z8T-yF-bhO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Kz-zU-yoS"/>

@@ -21,8 +21,11 @@
 		18A5D775243A504700E3189F /* XICDefaultCornerOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5D773243A504700E3189F /* XICDefaultCornerOpt.m */; };
 		18A5D778243A514800E3189F /* XICDefaultHiddenOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A5D776243A514800E3189F /* XICDefaultHiddenOpt.h */; };
 		18A5D779243A514800E3189F /* XICDefaultHiddenOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5D777243A514800E3189F /* XICDefaultHiddenOpt.m */; };
+		18B018E72451522100AECFC1 /* XICDefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B018E62451522100AECFC1 /* XICDefined.m */; };
 		18B18396243A4AF4001A3785 /* XICDefaultSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B18394243A4AF4001A3785 /* XICDefaultSDK.h */; };
 		18B18397243A4AF4001A3785 /* XICDefaultSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B18395243A4AF4001A3785 /* XICDefaultSDK.m */; };
+		18B70792244DA1F000729CE0 /* Xib+XICSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B70790244DA1F000729CE0 /* Xib+XICSupport.h */; };
+		18B70793244DA1F000729CE0 /* Xib+XICSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B70791244DA1F000729CE0 /* Xib+XICSupport.m */; };
 		18E6672F243B053A0049D964 /* XICDefaultCornerArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E6672D243B053A0049D964 /* XICDefaultCornerArgs.h */; };
 		18E66730243B053A0049D964 /* XICDefaultCornerArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6672E243B053A0049D964 /* XICDefaultCornerArgs.m */; };
 		18E66734243B0FF10049D964 /* XICMethodsBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E66732243B0FF10049D964 /* XICMethodsBox.h */; };
@@ -51,7 +54,7 @@
 		18E743962439CE60001932C4 /* XICCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E7437C2439CE60001932C4 /* XICCommand.h */; };
 		18E743972439CE60001932C4 /* XICRuntimeWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E7437E2439CE60001932C4 /* XICRuntimeWork.h */; };
 		18E743982439CE60001932C4 /* XICRuntimeWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7437F2439CE60001932C4 /* XICRuntimeWork.m */; };
-		18E743992439CE60001932C4 /* XICDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E743802439CE60001932C4 /* XICDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E743992439CE60001932C4 /* XICDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E743802439CE60001932C4 /* XICDocument.h */; };
 		18E7439A2439CE60001932C4 /* XICDefined.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E743812439CE60001932C4 /* XICDefined.h */; };
 		18FA91C4243B7D7600F525C1 /* XICDefaultBGColorOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FA91C2243B7D7600F525C1 /* XICDefaultBGColorOpt.h */; };
 		18FA91C5243B7D7600F525C1 /* XICDefaultBGColorOpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA91C3243B7D7600F525C1 /* XICDefaultBGColorOpt.m */; };
@@ -74,8 +77,11 @@
 		18A5D773243A504700E3189F /* XICDefaultCornerOpt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XICDefaultCornerOpt.m; sourceTree = "<group>"; };
 		18A5D776243A514800E3189F /* XICDefaultHiddenOpt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XICDefaultHiddenOpt.h; sourceTree = "<group>"; };
 		18A5D777243A514800E3189F /* XICDefaultHiddenOpt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XICDefaultHiddenOpt.m; sourceTree = "<group>"; };
+		18B018E62451522100AECFC1 /* XICDefined.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XICDefined.m; sourceTree = "<group>"; };
 		18B18394243A4AF4001A3785 /* XICDefaultSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XICDefaultSDK.h; sourceTree = "<group>"; };
 		18B18395243A4AF4001A3785 /* XICDefaultSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XICDefaultSDK.m; sourceTree = "<group>"; };
+		18B70790244DA1F000729CE0 /* Xib+XICSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xib+XICSupport.h"; sourceTree = "<group>"; };
+		18B70791244DA1F000729CE0 /* Xib+XICSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xib+XICSupport.m"; sourceTree = "<group>"; };
 		18E6672D243B053A0049D964 /* XICDefaultCornerArgs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XICDefaultCornerArgs.h; sourceTree = "<group>"; };
 		18E6672E243B053A0049D964 /* XICDefaultCornerArgs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XICDefaultCornerArgs.m; sourceTree = "<group>"; };
 		18E66732243B0FF10049D964 /* XICMethodsBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XICMethodsBox.h; sourceTree = "<group>"; };
@@ -271,9 +277,12 @@
 		18E743792439CE60001932C4 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				18B70790244DA1F000729CE0 /* Xib+XICSupport.h */,
+				18B70791244DA1F000729CE0 /* Xib+XICSupport.m */,
 				18E7437C2439CE60001932C4 /* XICCommand.h */,
 				18E7437B2439CE60001932C4 /* XICCommand.m */,
 				18E743812439CE60001932C4 /* XICDefined.h */,
+				18B018E62451522100AECFC1 /* XICDefined.m */,
 				18E7437A2439CE60001932C4 /* XICProtocols.h */,
 			);
 			path = Commons;
@@ -296,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E743922439CE60001932C4 /* XDDKNightVersionColorKeyArgs.h in Headers */,
+				18B70792244DA1F000729CE0 /* Xib+XICSupport.h in Headers */,
 				18E743962439CE60001932C4 /* XICCommand.h in Headers */,
 				18FA91C4243B7D7600F525C1 /* XICDefaultBGColorOpt.h in Headers */,
 				18A5D770243A4EA000E3189F /* XICDefaultBorderArgs.h in Headers */,
@@ -396,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E743902439CE60001932C4 /* XDDKNightVersionColorKeyArgs.m in Sources */,
+				18B70793244DA1F000729CE0 /* Xib+XICSupport.m in Sources */,
 				18E743952439CE60001932C4 /* XICCommand.m in Sources */,
 				18FA91C5243B7D7600F525C1 /* XICDefaultBGColorOpt.m in Sources */,
 				18A5D771243A4EA000E3189F /* XICDefaultBorderArgs.m in Sources */,
@@ -412,6 +423,7 @@
 				18E7438C2439CE60001932C4 /* XICDKNightVersionBackgroundColorKeyOpt.m in Sources */,
 				18E7438D2439CE60001932C4 /* XICDKNightVersionBackgroundColorOpt.m in Sources */,
 				18E743912439CE60001932C4 /* XICDKNightVersionColorArgs.m in Sources */,
+				18B018E72451522100AECFC1 /* XICDefined.m in Sources */,
 				18E743932439CE60001932C4 /* XICDKNightVersionSDK.m in Sources */,
 				18E7438A2439CE60001932C4 /* XICDKNightVersionTextColorKeyOpt.m in Sources */,
 				18E743892439CE60001932C4 /* XICDKNightVersionTextColorOpt.m in Sources */,

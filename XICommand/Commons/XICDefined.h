@@ -9,7 +9,7 @@
 #define XIC_CROSS_DES(...)  UI##__VA_ARGS__
 #define XICView             UIView
 #define XICViewController   UIViewController
-#define XICRespomder        UIResponder
+#define XICResponder        UIResponder
 #define XICEdgeInsets       UIEdgeInsets
 #define XICColor            UIColor
 #define XICFont             UIFont
@@ -20,11 +20,17 @@
 #define XIC_CROSS_DES(...)  NS##__VA_ARGS__
 #define XICView             NSView
 #define XICViewController   NSViewController
-#define XICRespomder        NSResponder
+#define XICResponder        NSResponder
 #define XICEdgeInsets       NSEdgeInsets
 #define XICColor            NSColor
 #define XICFont             NSFont
 
 #endif // OS
+
+FOUNDATION_EXPORT NSString *const XICCodeCtrlRet;
+FOUNDATION_EXPORT NSString *const XICCodeEmpty;
+FOUNDATION_EXPORT NSString *const XICCodeNLine;
+FOUNDATION_EXPORT NSString *const XICCodeSpace;
+FOUNDATION_EXPORT NSString *const XICCodeRet;
 
 #endif //XIBCommand__H__

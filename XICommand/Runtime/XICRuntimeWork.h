@@ -13,4 +13,7 @@
 + (nonnull instancetype)shared;
 /// Changes from other runtimes can be reloaded if they have potential impact.来自其他对运行时的修改，如果有潜在的影响，可以重新加载.
 - (void)reload;
+
++ (nullable NSString *)windowCMDForObject:(nonnull XICResponder *)obj;
++ (void)setWindowCMD:(nonnull NSString *)window forObject:(nonnull XICResponder *)obj;
 @end
