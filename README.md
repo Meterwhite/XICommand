@@ -2,22 +2,21 @@
 ##### Let xib execute the command line
 + [Introduction](#Introduction)
 + [CocoaPods](#CocoaPods)
-+ [Usage](#Usage)
-   + [Window command](#Window_command)
-   + [IBOutlets command](#IBOutlets_command)
-+ [Command rule](#Command rule)
-+ [Document](#Document)
-+ [Plug-ins usage](#Plug-ins_usage)
++ [Usage使用](#Usage)
+   + [Window command窗口命令](#Window_command)
+   + [IBOutlets command连线命令](#IBOutlets_command)
++ [Command rule命令规则](#Command_rule)
++ [Document文档](#Document)
++ [Plug-ins usage使用插件](#Plug-ins_usage)
    + [DKNightVersion](#DKNightVersion)
    + [Default](#Default)
-+ [Common problem](#Common_problem)
++ [Common problem常见问题](#Common_problem)
    + [Number format?](#Common_problem)
    + [Color format?](#Common_problem)
    + [How to solve duplicate outlet names?](#Common_problem)
    + [How to rename IBOutlet or IBOutletCollection?](#Common_problem)
    + [Impact on program performance?](#Common_problem)
-   + [Number format?](#Common_problem)
-+ [Development of new plugins](#Development)
++ [Development of new plugins开发插件](#Development)
 + [Help it](#Help_it)
 
 
@@ -38,7 +37,7 @@ pod 'XICommand'
 ```
 
 ## <a id="Usage"></a> Usage 用法
-### <a id="Window command"></a> Examples for Window command 窗口命令案例
+### <a id="Window_command"></a> Examples for Window command 窗口命令案例
 ![](https://github.com/Meterwhite/XICommand/blob/master/XICWinCmd.png)
 1. Select control or controller
 2. Open : Xcode->Attributes inspector(`Option + Commnd + 0`)
