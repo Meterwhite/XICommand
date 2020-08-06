@@ -1,4 +1,4 @@
-# Xcode interface command
+# XML interface command
 ##### Let xib execute the command line
 + [Introduction](#Introduction)
 + [CocoaPods](#CocoaPods)
