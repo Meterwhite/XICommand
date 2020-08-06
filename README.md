@@ -21,9 +21,9 @@
 
 
 ## <a id="Introduction"></a> Introduction
-- Xcode interface command .The unique function is to support the `dark mode` through the `XIB` file. The user will trigger a special function when using the specified format on the XIB file.This format is like the command line.Because of the interface-oriented programming, all developers can easily add `plug-ins` to support more functions.Not only supports `iOS`, most functions support `macOS`.The project uses `objective-c` or `swift` is no problem.This project uses the method of dynamically loading plugins, so it does not depend on any third-party libraries. Please use cocoapods or other methods to import third-party libraries to support the specified plug-in function.
+- XML interface command .The unique function is to support the `dark mode` through the `XIB` file. The user will trigger a special function when using the specified format on the XIB file.This format is like the command line.Because of the interface-oriented programming, all developers can easily add `plug-ins` to support more functions.Not only supports `iOS`, most functions support `macOS`.The project uses `objective-c` or `swift` is no problem.This project uses the method of dynamically loading plugins, so it does not depend on any third-party libraries. Please use cocoapods or other methods to import third-party libraries to support the specified plug-in function.
 
-> Xcode interface command 的独特功能是通过`XIB`文件适配`夜间模式`，用户在XIB文件上使用指定格式时将触发特殊功能，这种格式类似于命令行。因为是面向接口的编程 ，所有开发人员都可以轻松添加插件以支持更多功能。支持iOS为主，macOS为辅。项目使用objective-c或者swift皆为无恙。本项目采用动态加载插件，故不依赖其他三方。请使用cocoapods或其他方法导入三方以支持指定插件的功能。
+> XML interface command 的独特功能是通过`XIB`文件适配`夜间模式`，用户在XIB文件上使用指定格式时将触发特殊功能，这种格式类似于命令行。因为是面向接口的编程 ，所有开发人员都可以轻松添加插件以支持更多功能。支持iOS为主，macOS为辅。项目使用objective-c或者swift皆为无恙。本项目采用动态加载插件，故不依赖其他三方。请使用cocoapods或其他方法导入三方以支持指定插件的功能。
 
 ## How to solve the pain points that Xcode's built-in visual programming means are not enough?
 - XIC uses IBOutlet as a command line to expand XIC's edit items. Just as the command line is a program corresponding to a command, the command subordinate has multiple options. XIC is a plug-in corresponding to a command, and the command subordinate has multiple options. Therefore, the functional scalability of XIC is unlimited.
